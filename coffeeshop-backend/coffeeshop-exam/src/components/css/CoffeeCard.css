@@ -1,0 +1,9 @@
+.coffe-card {
+  background-color: #FCD5B8;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.coffe-card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}

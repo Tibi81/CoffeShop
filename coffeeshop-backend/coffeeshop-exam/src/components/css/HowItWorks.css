@@ -1,0 +1,9 @@
+.howItWorksWrapper h1{
+    color: var(--color-secondary);
+    font-size: 4rem;
+}
+
+.howItWorksWrapper h2{
+    color: var(--color-footer);
+}
+
