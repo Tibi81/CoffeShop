@@ -1,0 +1,103 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+  background-color: white;
+  margin: 0;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  padding: 5px 0px;
+  z-index: 99;
+}
+
+nav .logo-holder{
+    min-width: 270px;
+}
+
+nav > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .link-holder{
+    width: 100%;
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav .link-holder{
+        width: 100px;
+    }
+}
+
+
+nav .link-holder ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav .link-holder a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 20px;
+  font-size: 0.8rem;
+  transition: 1s;
+}
+
+
+nav .link-holder a:hover {
+  color: black;
+}
+
+nav .logo-holder {
+    font-family: "Fraunces";
+    font-weight: bold;
+    font-size: 2rem;
+    color: #323b4a;
+}
+  
+  .bean-logo {
+    margin-right: 10px;
+  }
+
+
+/* MOBILE */
+
+.mobile-navbar{
+    height: 80px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 95;
+}
+
+.open{
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.open ul{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.open ul a{
+    font-size: 1.3rem;
+}
+

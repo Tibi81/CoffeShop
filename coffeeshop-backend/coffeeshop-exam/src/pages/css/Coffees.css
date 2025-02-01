@@ -1,0 +1,11 @@
+.coffees>h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.coffee-list{
+    margin-bottom: 20px;
+}
